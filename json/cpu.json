@@ -221,172 +221,172 @@
 
 	{
 		"id": 23,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "Intel",
+		"famille": "i9",
+		"modele": "i9-7960X",
+		"nb_coeur": 16,
+		"nb_threads":32,
+		"frequence": 2.8
 	},
 
 	{
 		"id": 24,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "Intel",
+		"famille": "i9",
+		"modele": "i9-7900x",
+		"nb_coeur": 10,
+		"nb_threads":20,
+		"frequence":3.3
 	},
 
 	{
 		"id": 25,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD" ,
+		"famille": "FX",
+		"modele": "FX-8350",
+		"nb_coeur": 8,
+		"nb_threads":8,
+		"frequence": 4
 	},
 
 	{
 		"id": 26,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "FX",
+		"modele": "FX-6350",
+		"nb_coeur": 6,
+		"nb_threads":6,
+		"frequence": 3.5
 	},
 
 	{
 		"id": 27,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "FX",
+		"modele": "FX-4350",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 4.2
 	},
 
 	{
 		"id": 28,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "FX",
+		"modele": "FX-9590",
+		"nb_coeur": 8,
+		"nb_threads":8,
+		"frequence": 4.7
 	},
 
 	{
 		"id": 29,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen 3",
+		"modele": "1300X",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 3.5
 	},
 
 	{
 		"id": 30,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen 3",
+		"modele": "1200",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 3.1
 	},
 
 	{
 		"id": 31,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen 5",
+		"modele": "1600X",
+		"nb_coeur": 6,
+		"nb_threads":12,
+		"frequence": 3.6
 	},
 
 	{
 		"id": 32,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen 5",
+		"modele": "1600",
+		"nb_coeur": 6,
+		"nb_threads":12,
+		"frequence":3.2
 	},
 
 	{
 		"id": 33,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen 5",
+		"modele": "1500X",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 3.5
 	},
 
 	{
 		"id": 34,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque":"AMD",
+		"famille": "Ryzen 7",
+		"modele": "1800X",
+		"nb_coeur": 8,
+		"nb_threads":16,
+		"frequence": 3.6
 	},
 
 	{
 		"id": 35,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen 7",
+		"modele": "1700X",
+		"nb_coeur": 8,
+		"nb_threads":16,
+		"frequence": 3.4
 	},
 
 	{
 		"id": 36,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen 7",
+		"modele": "1700",
+		"nb_coeur": 8,
+		"nb_threads":16,
+		"frequence":3
 	},
 
 	{
 		"id": 37,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen Threadripper",
+		"modele": "1950X",
+		"nb_coeur": 16,
+		"nb_threads":32,
+		"frequence": 3.4
 	},
 
 	{
 		"id": 38,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen Threadripper",
+		"modele": "1920X",
+		"nb_coeur": 12,
+		"nb_threads":24,
+		"frequence": 3.5
 	},
 
 	{
 		"id": 39,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen Threadripper",
+		"modele": "1900X",
+		"nb_coeur": 8,
+		"nb_threads":16,
+		"frequence":3.8
 	},
 
 	{
@@ -401,101 +401,101 @@
 
 	{
 		"id": 41,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Athlon X4",
+		"modele": "970",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 3.8
 	},
 
 	{
 		"id": 42,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Athlon X4",
+		"modele": "950",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence":3.5
 	},
 
 	{
 		"id": 43,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Athlon X4",
+		"modele": "845",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 3.5
 	},
 
 	{
 		"id": 44,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Phenom II X6",
+		"modele": "1100T",
+		"nb_coeur": 6,
+		"nb_threads":6,
+		"frequence":3.3
 	},
 
 	{
 		"id": 45,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Phenom II X6",
+		"modele": "1090T",
+		"nb_coeur": 6,
+		"nb_threads":6,
+		"frequence": 3.2
 	},
 
 	{
 		"id": 46,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Phenom II X6",
+		"modele": "1045T",
+		"nb_coeur": 6,
+		"nb_threads":6,
+		"frequence":2.7
 	},
 
 	{
 		"id": 47,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Turion II Neo",
+		"modele": "N54L",
+		"nb_coeur": 2,
+		"nb_threads":2,
+		"frequence":2.2
 	},
 
 	{
 		"id": 48,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Turion II Neo",
+		"modele": "N54H",
+		"nb_coeur": 2,
+		"nb_threads":2,
+		"frequence":2.2
 	},
 
 	{
 		"id": 49,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Turion II Neo",
+		"modele": "N40L",
+		"nb_coeur": 2,
+		"nb_threads":2,
+		"frequence":1.5
 	},
 
 	{
 		"id": 50,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Turion II Neo",
+		"modele": "N40H",
+		"nb_coeur": 2,
+		"nb_threads":2,
+		"frequence":1.5
 	}
 ]
