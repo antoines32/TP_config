@@ -1,209 +1,222 @@
 [
 	{
 		"id": 1,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i5",
+		"modele": "i5-8600K",
+		"nb_coeur": 6,
+		"nb_threads": 12,
+		"frequence": 3.6
 	},
 
 	{
 		"id": 2,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i5",
+		"modele": "i5-8400",
+		"nb_coeur": 6,
+		"nb_threads": 12,
+		"frequence": 2.8
 	},
 
 	{
 		"id": 3,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
-	},
-
-	{
-		"id": 3,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i5",
+		"modele": "i5-7600K",
+		"nb_coeur": 4,
+		"nb_threads":8,
+		"frequence": 3.8
 	},
 
 	{
 		"id": 4,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel" ,
+		"famille": "i5",
+		"modele": "i5-7600",
+		"nb_coeur": 4,
+		"nb_threads":8,
+		"frequence": 3.5
 	},
 
 	{
 		"id": 5,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i5",
+		"modele": "i5-7500",
+		"nb_coeur": 4,
+		"nb_threads":8,
+		"frequence": 3.4
 	},
 
 	{
 		"id": 6,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i5",
+		"modele": "i5-7400",
+		"nb_coeur": 4,
+		"nb_threads":8,
+		"frequence": 3
 	},
 
 	{
 		"id": 7,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i5",
+		"modele": "i5-6600K",
+		"nb_coeur": 4,
+		"nb_threads":8,
+		"frequence": 3.5
 	},
 
 	{
 		"id": 8,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i5",
+		"modele": "i5-6600",
+		"nb_coeur": 4,
+		"nb_threads":8,
+		"frequence": 3.3
 	},
 
 	{
 		"id": 9,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i7",
+		"modele": "i7-8700K",
+		"nb_coeur": 6,
+		"nb_threads":12,
+		"frequence": 3.7
 	},
 
 	{
 		"id": 10,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i7",
+		"modele": "i7-8700",
+		"nb_coeur": 6,
+		"nb_threads":12,
+		"frequence": 3.2
 	},
 
 	{
 		"id": 11,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i7",
+		"modele": "i7-7700K",
+		"nb_coeur": 4,
+		"nb_threads":8,
+		"frequence": 4.2
 	},
 
 	{
 		"id": 12,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel" ,
+		"famille": "i7",
+		"modele": "i7-7700",
+		"nb_coeur": 4,
+		"nb_threads":8,
+		"frequence":3.6
 	},
 
 	{
 		"id": 13,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel" ,
+		"famille": "i7",
+		"modele": "i7-6900K",
+		"nb_coeur": 8,
+		"nb_threads":16,
+		"frequence": 3.2
 	},
 
 	{
 		"id": 14,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i7",
+		"modele": "i7-6800K",
+		"nb_coeur": 6,
+		"nb_threads":12,
+		"frequence": 3.4
 	},
 
 	{
 		"id": 15,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "Celeron",
+		"modele": "J3455",
+		"nb_coeur": 4,
+		"nb_threads": 4,
+		"frequence": 1.5
 	},
 
 	{
 		"id": 16,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "Celeron",
+		"modele": "J3355",
+		"nb_coeur": 2,
+		"nb_threads":2,
+		"frequence": 2
 	},
 
 	{
 		"id": 17,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "Celeron",
+		"modele": "J3160",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 1.6
 	},
 
 	{
 		"id": 18,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i3",
+		"modele": "i3-8350K",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 4
 	},
 
 	{
 		"id": 19,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i3",
+		"modele": "i3-8100",
+		"nb_coeur": 4,
+		"nb_threads":4,
+		"frequence": 3.6
 	},
 
 	{
 		"id": 20,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i3",
+		"modele": "i3-7350K",
+		"nb_coeur": 2,
+		"nb_threads":2,
+		"frequence": 4.2
 	},
 
 	{
 		"id": 21,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i3",
+		"modele": "i3-7320",
+		"nb_coeur": 2,
+		"nb_threads":2,
+		"frequence": 4.1
 	},
 
 	{
 		"id": 22,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":
+		"marque": "Intel",
+		"famille": "i3",
+		"modele": "i3-7300",
+		"nb_coeur": 2,
+		"nb_threads":2,
+		"frequence": 4
 	},
 
 	{
@@ -212,7 +225,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -221,7 +235,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -230,7 +245,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -239,7 +255,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -248,7 +265,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -257,7 +275,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -266,7 +285,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -275,7 +295,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -284,7 +305,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -293,7 +315,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -302,7 +325,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -311,7 +335,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -320,7 +345,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -329,7 +355,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -338,7 +365,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -347,7 +375,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -356,7 +385,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -365,7 +395,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -374,7 +405,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -383,7 +415,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -392,7 +425,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -401,7 +435,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -410,7 +445,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -419,7 +455,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -428,7 +465,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -437,7 +475,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -446,7 +485,8 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	},
 
 	{
@@ -455,6 +495,7 @@
 		"famille": ,
 		"modele": ,
 		"nb_coeur": ,
-		"nb_threads":
+		"nb_threads":,
+		"frequence":
 	}
 ]
