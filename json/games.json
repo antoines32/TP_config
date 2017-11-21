@@ -1,0 +1,21 @@
+[
+	{
+		"id":,
+		"nom":,
+		"date_sortie":,
+		"editeur":,
+		"developpeur":,
+		"description":,
+		"min_cpu_clock":,
+		"min_cpu_core":,
+		"min_ram":,
+		"min_gpu_ram":,
+		"min_space":,
+		"recom":,
+		"recom_cpu_clock":,
+		"recom_cpu_core":,
+		"recom_ram":,
+		"recom_gpu_ram":,
+		"recom_space":
+	}
+]
