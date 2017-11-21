@@ -5,3 +5,8 @@
 body {
 	background-color: silver;
 }
+
+.inline-form input{
+	display: inline-block;
+	width: 60%;
+}
