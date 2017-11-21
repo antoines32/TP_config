@@ -8,28 +8,42 @@
 	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="index.js"></script>
 </head>
-<body class="list-group" ng-controller="ConfigController as controller">
-	<header class="container-fluid">
-		<span>Can I Play It</span>
-		<input type="search" name="search" placeholder="serch a game, component">
-		<button>login</button>
-		<button>register</button>
-		<section class="tab">
-            <ul class="nav nav-pills">
-                <li>
-                    <a>Test</a></li>
-                <li>
-                    <a>Game list</a></li>
-                <li>
-                    <a>Component list</a></li>
-                <li>
-                    <a>Add device</a></li>
-            </ul>
+<body>
+
+	<header class="row">
+		
+		
+			
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">Can I Use It</a>
+		    <ul class="navbar-nav">
+		    	<li class="nav-item active">
+		        	<a class="nav-link" href="#">Active</a>
+		    	</li>
+		    	<li class="nav-item">
+		        	<a class="nav-link" href="#">Link</a>
+		    	</li>
+		    	<li class="nav-item">
+		        	<a class="nav-link" href="#">Link</a>
+		    	</li>
+		    	<li class="nav-item">
+		        	<a class="nav-link disabled" href="#">Disabled</a>
+		    	</li>
+		    	<li class=""><input type="search" name="search" placeholder="serch a game, component..." class="col-lg-8"></li>
+		    	<li class="nav-item">
+		        	<a class="nav-link" href="#">Login</a>
+		    	</li>
+		    	<li class="nav-item">
+		        	<a class="nav-link" href="">Register</a>
+		    	</li>
+		    	
+		    </ul>
+		</nav>
 	</header>
-	<content class="container">
+	<content class="container-fluid">
 		<div>
 			<p>Nous avons concus ce site pour pouvoir comparer votre configuration personnel avec la configuration requise des différents jeux auxquels vous aimeriez jouer</p>
-			<button>commencer un test</button>
+			<button class="test">commencer un test</button>
 		</div>
 		<div>
 			<p>Avant </p>
