@@ -1,0 +1,3 @@
+$(#log).click(function(e){
+	
+})
