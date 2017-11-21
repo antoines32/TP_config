@@ -3,49 +3,54 @@
 <head>
 	<meta charset="utf-8">
 	<title>Can I Play It</title>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	
 	<script type="text/javascript" src="index.js"></script>
-</head>
-<body>
 
-	<header class="row">
-		
-		
-			
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-			<a class="navbar-brand" href="#">Can I Use It</a>
-		    <ul class="navbar-nav">
-		    	<li class="nav-item active">
-		        	<a class="nav-link" href="#">Active</a>
-		    	</li>
-		    	<li class="nav-item">
-		        	<a class="nav-link" href="#">Link</a>
-		    	</li>
-		    	<li class="nav-item">
-		        	<a class="nav-link" href="#">Link</a>
-		    	</li>
-		    	<li class="nav-item">
-		        	<a class="nav-link disabled" href="#">Disabled</a>
-		    	</li>
-		    	<li class=""><input type="search" name="search" placeholder="serch a game, component..." class="col-lg-8"></li>
-		    	<li class="nav-item">
-		        	<a class="nav-link" href="#">Login</a>
-		    	</li>
-		    	<li class="nav-item">
-		        	<a class="nav-link" href="">Register</a>
-		    	</li>
-		    	
-		    </ul>
+</head>
+<body>	
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark row">
+			<div class="navbar-header col-lg-2 col-sm-3">
+				<a class="navbar-brand" href="#">Can I Play It</a>
+			</div>
+			<form class="navbar-form col-lg-6 col-md-5 col-sm-6 col-8 inline-form">
+				<input type="search" class="input-sm form-control" placeholder="Recherche">
+				<button class="">rechercher</button>
+			</form>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    			<span class="navbar-toggler-icon"></span>
+    		</button>
+			<div class="collapse navbar-collapse col-lg-4" id="collapsibleNavbar">
+			    <ul class="navbar-nav">
+			    	<li class="nav-item active">
+			        	<a class="nav-link" href="index.html">Acceuil</a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="#">Test</a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="#">Jeux</a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="login/login.html">Login</a>
+			    	</li>
+			    	<li class="nav-item">
+			        	<a class="nav-link" href="login/register.html">Register</a>
+			    	</li>
+			    </ul>
+		    </div>
 		</nav>
-	</header>
-	<content class="container-fluid">
+	
+	<content class="container">
 		<div>
 			<p>Nous avons concus ce site pour pouvoir comparer votre configuration personnel avec la configuration requise des différents jeux auxquels vous aimeriez jouer</p>
 			<button class="test">commencer un test</button>
 		</div>
-		<div>
+		<div id="">
 			<p>Avant </p>
 		</div>	
 
