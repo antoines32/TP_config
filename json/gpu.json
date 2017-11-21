@@ -2,7 +2,7 @@
 	{
 		"id":1,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GTX 1070 Ti",
 		"memory":8192,
 		"gpu_clock":1607,
@@ -11,7 +11,7 @@
 	{
 		"id":2,
 		"marque":"NVIDIA",
-		"famille":"Titan",
+		"serie":"Titan",
 		"nom":"TITAN Xp",
 		"memory":12288,
 		"gpu_clock":1405,
@@ -20,7 +20,7 @@
 	{
 		"id":3,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GT 1030",
 		"memory":2048,
 		"gpu_clock":1228,
@@ -29,7 +29,7 @@
 	{
 		"id":4,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GTX 1060 6 GB",
 		"memory":6144,
 		"gpu_clock":1506,
@@ -38,7 +38,7 @@
 	{
 		"id":5,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GTX 1080",
 		"memory":8192,
 		"gpu_clock":1607,
@@ -47,7 +47,7 @@
 	{
 		"id":6,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GTX 1080 Ti",
 		"memory":11264,
 		"gpu_clock":1481,
@@ -56,7 +56,7 @@
 	{
 		"id":7,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GTX 1060 3 GB",
 		"memory":3072,
 		"gpu_clock":1506,
@@ -65,7 +65,7 @@
 	{
 		"id":8,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GTX 1050",
 		"memory":2048,
 		"gpu_clock":1354,
@@ -74,7 +74,7 @@
 	{
 		"id":9,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GTX 1050 Ti",
 		"memory":"4096",
 		"gpu_clock":1291,
@@ -83,7 +83,7 @@
 	{
 		"id":10,
 		"marque":"NVIDIA",
-		"famille":"Titan",
+		"serie":"Titan",
 		"nom":"TITAN X Pascal",
 		"memory":12288,
 		"gpu_clock":1417,
@@ -92,7 +92,7 @@
 	{
 		"id":11,
 		"marque":"NVIDIA",
-		"famille":"1000",
+		"serie":"1000",
 		"nom":"GeForce GTX 1070",
 		"memory":8192,
 		"gpu_clock":1506,
@@ -101,7 +101,7 @@
 	{
 		"id":12,
 		"marque":"NVIDIA",
-		"famille":"900",
+		"serie":"900",
 		"nom":"GeForce GTX 950",
 		"memory":2048,
 		"gpu_clock":1024,
@@ -110,7 +110,7 @@
 	{
 		"id":13,
 		"marque":"NVIDIA",
-		"famille":"900",
+		"serie":"900",
 		"nom":"GeForce GTX 980 Ti",
 		"memory":6144,
 		"gpu_clock":1000,
@@ -119,7 +119,7 @@
 	{
 		"id":14,
 		"marque":"NVIDIA",
-		"famille":"900",
+		"serie":"900",
 		"nom":"GeForce GTX 960",
 		"memory":2048,
 		"gpu_clock":1127,
@@ -128,7 +128,7 @@
 	{
 		"id":15,
 		"marque":"NVIDIA",
-		"famille":"900",
+		"serie":"900",
 		"nom":"GeForce GTX 970",
 		"memory":4096,
 		"gpu_clock":1050,
@@ -137,7 +137,7 @@
 	{
 		"id":16,
 		"marque":"NVIDIA",
-		"famille":"900",
+		"serie":"900",
 		"nom":"GeForce GTX 980",
 		"memory":4096,
 		"gpu_clock":1050,
@@ -146,7 +146,7 @@
 	{
 		"id":17,
 		"marque":"NVIDIA",
-		"famille":"700",
+		"serie":"700",
 		"nom":"GeForce GTX 750 v2",
 		"memory":2048,
 		"gpu_clock":1038,
@@ -155,7 +155,7 @@
 	{
 		"id":18,
 		"marque":"NVIDIA",
-		"famille":"700",
+		"serie":"700",
 		"nom":"GeForce GT 710",
 		"memory":1024,
 		"gpu_clock":797,
@@ -164,7 +164,7 @@
 	{
 		"id":19,
 		"marque":"NVIDIA",
-		"famille":"700",
+		"serie":"700",
 		"nom":"GeForce GT 720",
 		"memory":1024,
 		"gpu_clock":797,
@@ -173,7 +173,7 @@
 	{
 		"id":20,
 		"marque":"NVIDIA",
-		"famille":"700",
+		"serie":"700",
 		"nom":"GeForce GT 730",
 		"memory":1024,
 		"gpu_clock":902,
@@ -182,7 +182,7 @@
 	{
 		"id":21,
 		"marque":"NVIDIA",
-		"famille":"700",
+		"serie":"700",
 		"nom":"GeForce GT 740",
 		"memory":1024,
 		"gpu_clock":993,
@@ -191,7 +191,7 @@
 	{
 		"id":22,
 		"marque":"NVIDIA",
-		"famille":"700",
+		"serie":"700",
 		"nom":"GeForce GT 750",
 		"memory":1024,
 		"gpu_clock":1020,
@@ -200,7 +200,7 @@
 	{
 		"id":23,
 		"marque":"NVIDIA",
-		"famille":"600",
+		"serie":"600",
 		"nom":"GeForce GTX 650",
 		"memory":1024,
 		"gpu_clock":1058,
@@ -209,7 +209,7 @@
 	{
 		"id":24,
 		"marque":"NVIDIA",
-		"famille":"600",
+		"serie":"600",
 		"nom":"GeForce GTX 650 Ti",
 		"memory":1024,
 		"gpu_clock":928,
@@ -218,7 +218,7 @@
 	{
 		"id":25,
 		"marque":"NVIDIA",
-		"famille":"600",
+		"serie":"600",
 		"nom":"GeForce GT 640",
 		"memory":2048,
 		"gpu_clock":902,
@@ -227,7 +227,7 @@
 	{
 		"id":26,
 		"marque":"NVIDIA",
-		"famille":"600",
+		"serie":"600",
 		"nom":"GeForce GT 630",
 		"memory":1024,
 		"gpu_clock":810,
@@ -236,7 +236,7 @@
 	{
 		"id":27,
 		"marque":"NVIDIA",
-		"famille":"500",
+		"serie":"500",
 		"nom":"GeForce GT 545",
 		"memory":1536,
 		"gpu_clock":720,
@@ -245,7 +245,7 @@
 	{
 		"id":28,
 		"marque":"NVIDIA",
-		"famille":"500",
+		"serie":"500",
 		"nom":"GeForce GT 520",
 		"memory":1024,
 		"gpu_clock":810,
@@ -254,7 +254,7 @@
 	{
 		"id":29,
 		"marque":"NVIDIA",
-		"famille":"500",
+		"serie":"500",
 		"nom":"GeForce GT 550 Ti",
 		"memory":1024,
 		"gpu_clock":900,
@@ -263,7 +263,7 @@
 	{
 		"id":30,
 		"marque":"NVIDIA",
-		"famille":"100",
+		"serie":"100",
 		"nom":"GeForce G100 OEM",
 		"memory":256,
 		"gpu_clock":540,
@@ -272,7 +272,7 @@
 	{
 		"id":31,
 		"marque":"AMD",
-		"famille":"Radeon 500",
+		"serie":"Radeon 500",
 		"nom":"Radeon RX 560D",
 		"memory":4096,
 		"gpu_clock":1090,
@@ -281,7 +281,7 @@
 	{
 		"id":32,
 		"marque":"AMD",
-		"famille":"Radeon 500",
+		"serie":"Radeon 500",
 		"nom":"Radeon RX 550",
 		"memory":2048,
 		"gpu_clock":1100,
@@ -290,7 +290,7 @@
 	{
 		"id":33,
 		"marque":"AMD",
-		"famille":"Radeon 500",
+		"serie":"Radeon 500",
 		"nom":"Radeon RX 560",
 		"memory":4096,
 		"gpu_clock":1175,
@@ -299,7 +299,7 @@
 	{
 		"id":34,
 		"marque":"AMD",
-		"famille":"Radeon 500",
+		"serie":"Radeon 500",
 		"nom":"Radeon RX 570",
 		"memory":4096,
 		"gpu_clock":1168,
@@ -308,7 +308,7 @@
 	{
 		"id":35,
 		"marque":"AMD",
-		"famille":"Radeon 500",
+		"serie":"Radeon 500",
 		"nom":"Radeon RX 580",
 		"memory":8192,
 		"gpu_clock":1257,
@@ -317,7 +317,7 @@
 	{
 		"id":36,
 		"marque":"AMD",
-		"famille":"Vega",
+		"serie":"Vega",
 		"nom":"Radeon RX Vega 64 Nano",
 		"memory":8192,
 		"gpu_clock":1156,
@@ -326,7 +326,7 @@
 	{
 		"id":37,
 		"marque":"AMD",
-		"famille":"Vega",
+		"serie":"Vega",
 		"nom":"Radeon RX Vega 56",
 		"memory":8192,
 		"gpu_clock":1471,
@@ -335,7 +335,7 @@
 	{
 		"id":38,
 		"marque":"AMD",
-		"famille":"Vega",
+		"serie":"Vega",
 		"nom":"Radeon RX Vega 64",
 		"memory":8192,
 		"gpu_clock":1546,
@@ -344,7 +344,7 @@
 	{
 		"id":39,
 		"marque":"AMD",
-		"famille":"Radeon 400",
+		"serie":"Radeon 400",
 		"nom":"Radeon RX 470D",
 		"memory":4096,
 		"gpu_clock":926,
@@ -353,7 +353,7 @@
 	{
 		"id":40,
 		"marque":"AMD",
-		"famille":"Radeon 400",
+		"serie":"Radeon 400",
 		"nom":"Radeon RX 460",
 		"memory":2048,
 		"gpu_clock":1090,
@@ -362,7 +362,7 @@
 	{
 		"id":41,
 		"marque":"AMD",
-		"famille":"Radeon 400",
+		"serie":"Radeon 400",
 		"nom":"Radeon RX 470",
 		"memory":4096,
 		"gpu_clock":926,
@@ -371,7 +371,7 @@
 	{
 		"id":42,
 		"marque":"AMD",
-		"famille":"Radeon 400",
+		"serie":"Radeon 400",
 		"nom":"Radeon RX 480",
 		"memory":8192,
 		"gpu_clock":1120,
@@ -380,7 +380,7 @@
 	{
 		"id":43,
 		"marque":"AMD",
-		"famille":,
+		"serie":,
 		"nom":,
 		"memory":,
 		"gpu_clock":,
@@ -389,7 +389,7 @@
 	{
 		"id":44,
 		"marque":"AMD",
-		"famille":"Radeon 300",
+		"serie":"Radeon 300",
 		"nom":"Radeon R7 360E",
 		"memory":2048,
 		"gpu_clock":1050,
@@ -398,7 +398,7 @@
 	{
 		"id":45,
 		"marque":"AMD",
-		"famille":"Radeon 300",
+		"serie":"Radeon 300",
 		"nom":"Radeon R9 380X",
 		"memory":4096,
 		"gpu_clock":970,
@@ -407,7 +407,7 @@
 	{
 		"id":46,
 		"marque":"AMD",
-		"famille":"Radeon 300",
+		"serie":"Radeon 300",
 		"nom":"Radeon R9 370X",
 		"memory":2048,
 		"gpu_clock":980,
@@ -416,7 +416,7 @@
 	{
 		"id":47,
 		"marque":"AMD",
-		"famille":"Radeon 200",
+		"serie":"Radeon 200",
 		"nom":"Radeon R5 230",
 		"memory":1024,
 		"gpu_clock":625,
@@ -425,7 +425,7 @@
 	{
 		"id":48,
 		"marque":"AMD",
-		"famille":"Radeon 200",
+		"serie":"Radeon 200",
 		"nom":"Radeon R9 280",
 		"memory":3072,
 		"gpu_clock":827,
@@ -434,7 +434,7 @@
 	{
 		"id":49,
 		"marque":"AMD",
-		"famille":"Radeon 200",
+		"serie":"Radeon 200",
 		"nom":"Radeon R7 265",
 		"memory":2048,
 		"gpu_clock":900,
@@ -443,7 +443,7 @@
 	{
 		"id":50,
 		"marque":"AMD",
-		"famille":"Radeon 200",
+		"serie":"Radeon 200",
 		"nom":"Radeon R9 270",
 		"memory":2048,
 		"gpu_clock":900,
