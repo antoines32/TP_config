@@ -391,12 +391,12 @@
 
 	{
 		"id": 40,
-		"marque": ,
-		"famille": ,
-		"modele": ,
-		"nb_coeur": ,
-		"nb_threads":,
-		"frequence":
+		"marque": "AMD",
+		"famille": "Ryzen Threadripper",
+		"modele": "1950",
+		"nb_coeur": 16,
+		"nb_threads":32,
+		"frequence":3.4
 	},
 
 	{
