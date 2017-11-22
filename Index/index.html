@@ -12,15 +12,26 @@
 
 </head>
 <body>	
-		<nav class="navbar navbar-expand-md bg-dark navbar-dark row">
-			<div class="navbar-header col-lg-2 col-sm-3">
-				<a class="navbar-brand" href="#">Can I Play It</a>
-			</div>
-			<form class="navbar-form col-lg-6 col-md-5 col-sm-6 col-8 inline-form">
-				<input type="search" class="input-sm form-control" placeholder="Recherche">
-				<button class="">rechercher</button>
-			</form>
+	<!--Barre de navigation/Menu-->
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
 
+		<!--Logo-->
+			<div class="navbar-header col-lg-2 col-sm-3">
+				<a class="navbar-brand" href="index.html">Can I Play It</a>
+			</div>
+
+		<!--Barre de recherche-->
+			<div class="form-group col-lg-6 col-md-5 col-sm-6 col-8">
+                <div class="input-group input-group-md icon-addon">
+                    <input placeholder="Texte" name="" id="schbox" class="form-control" type="text">
+                    <i class="icon icon-search"></i>
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-inverse">Rechercher</button>
+                    </span>
+                </div>
+            </div>
+
+    	<!--Menu réductible-->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     			<span class="navbar-toggler-icon"></span>
     		</button>
@@ -44,13 +55,14 @@
 			    </ul>
 		    </div>
 		</nav>
-	
+<!--Page principale-->	
 	<content class="container">
-		<div>
+		<div class="container">
 			<p>Nous avons concus ce site pour pouvoir comparer votre configuration personnel avec la configuration requise des différents jeux auxquels vous aimeriez jouer</p>
+		<!--Bouton de test (c'est le même que le test dans le menu-->
 			<button class="test">commencer un test</button>
 		</div>
-		<div id="">
+		<div class="container">
 			<p>Avant </p>
 		</div>	
 

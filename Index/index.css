@@ -10,3 +10,7 @@ body {
 	display: inline-block;
 	width: 60%;
 }
+
+.form-group{
+	margin-bottom: 0px;
+}
