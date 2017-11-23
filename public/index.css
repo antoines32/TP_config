@@ -65,3 +65,8 @@ body {
 	border-radius:3px;
 	font-size:20px;
 }
+
+#hideregister {
+	visibility:hidden;
+	display:none;
+}

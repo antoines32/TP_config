@@ -50,11 +50,7 @@
 			    </ul>
 			    <ul class="navbar-nav">
 			    	<li class="nav-item">
-			        	<a class="nav-link" id="show_login" value="Show Login" href="">Login</a>
-			        	
-			    	</li>
-			    	<li class="nav-item">
-			        	<a class="nav-link" href="login/register.html">Register</a>
+			        	<a class="nav-link" id="show_login" value="Show Login" href="">Login/register</a>
 			    	</li>
 			    </ul>
 		    </div>
@@ -66,14 +62,21 @@
 		<!--Popup de login/register url : http://talkerscode.com/webtricks/create-a-login-form-on-popup-box-using-jquery.php-->
 		<div id = "loginform" class="container">
 			<input type="image" name="" id="close_login" src="image/croix2min.png">
-			<p>Salut les bouseux</p>
-			<div class="container">
+			<p>Login/Register</p>
+			<div class="container" id="hidelogin">
 	    		<form method = "post" action = "">
 	   				
 	    			<input type = "text" id = "login" placeholder = "Email/Username" name = "uid">
 	    			<input type = "password" id = "password" name = "upass" placeholder = "******">
 	    			<button type="submit" class="btn btn-success" id="dologin">Login</button>
+	    			<button id="show_register" class="btn btn-success">register</button>
 	    		</form>
+    		</div>
+    		<div class="container" id="hideregister">
+    			<form method="post">
+    				<input type="text" id="user" placeholder="Username">
+    				<input type="text" name="" id="mail" placeholder="Email">
+    			</form>
     		</div>
  		</div>
 
