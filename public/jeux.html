@@ -66,19 +66,20 @@
 	   				
 	    			<input type = "text" id = "login" placeholder = "Email/Username" name = "uid">
 	    			<input type = "password" id = "password" name = "upass" placeholder = "******">
-	    			<button type="submit" class="btn btn-success" id="dologin">Login</button>
-	    			<button id="show_register" class="btn btn-success">register</button>
+	    			<input type="submit" class="btn btn-success log" id="dologin" value="Connexion">
+	    			<input type="button" id="show_register" class="btn btn-success log" value="Inscription">
 	    		</form>
     		</div>
     	<!--popup register-->
     		<div class="container" id="hideregister">
     			<form method="post">
-    				<input type="text" name="" placeholder="Nom">
-    				<input type="text" name="" placeholder="Prénom">
-    				<input type="text" name="" id="mail" placeholder="Email">
-    				<input type="password" name="" placeholder="Mot de passe">
-    				<input type="text" id="user" placeholder="Pseudo">
-    				<button type="submit" class="btn btn-success">Enregistrer</button>
+    				<input type="text" name="" placeholder="Nom" class="reg">
+    				<input type="text" name="" placeholder="Prénom" class="reg">
+    				<input type="text" name="" id="mail" placeholder="Email" class="reg">
+    				<input type="password" name="" placeholder="Mot de passe" class="reg">
+    				<input type="text" id="user" placeholder="Pseudo" class="reg">
+    				<input type="submit" class="btn btn-success log" value="Valider" id="doregister">
+    				<input type="button" class="btn btn-success log" value="Déja enregistré?" id="show_log">
     			</form>
     		</div>
  		</div>
