@@ -66,21 +66,22 @@
 			<div class="container" id="hidelogin">
 	    		<form method="post" action="php/connexion.php">
 	   				
-	    			<input type = "text" id = "login" placeholder = "Email/Username" name = "pseudo">
-	    			<input type = "password" id = "password" name = "mot_de_passe" placeholder = "******">
+	    			<input type ="text" id ="login" placeholder="Email/Username" name="pseudo">
+	    			<input type ="password" id ="password" name="mot_de_passe" placeholder="******">
 	    			<input type="submit" class="btn btn-success log" id="dologin" name="connexion" value="Connexion">
 	    			<input type="button" id="show_register" class="btn btn-success log" value="Inscription">
 	    		</form>
     		</div>
     	<!--popup register-->
     		<div class="container" id="hideregister">
-    			<form method="post">
-    				<input type="text" name="" placeholder="Nom" class="reg">
-    				<input type="text" name="" placeholder="Prénom" class="reg">
-    				<input type="text" name="" id="mail" placeholder="Email" class="reg">
-    				<input type="password" name="" placeholder="Mot de passe" class="reg">
-    				<input type="text" id="user" placeholder="Pseudo" class="reg">
-    				<input type="submit" class="btn btn-success log" value="Valider" id="doregister">
+    			<form method="post" action="php/register.php">
+    				<input type="text" name="nom" placeholder="Nom" class="reg">
+    				<input type="text" name="prenom" placeholder="Prénom" class="reg">
+    				<input type="email" name="mail" id="mail" placeholder="Email" class="reg">
+    				<input type="password" name="mdp" placeholder="Mot de passe" class="reg">
+    				<input type="password" name="mdp_confirm" placeholder="Confirmer le mot de passe" class="reg">
+    				<input type="text" name="pseudo" id="user" placeholder="Pseudo" class="reg">
+    				<input type="submit" name="valider" class="btn btn-success log" value="Valider" id="doregister">
     				<input type="button" class="btn btn-success log" value="Déja enregistré?" id="show_log">
     			</form>
     		</div>
@@ -88,15 +89,11 @@
 
  		<!--Description du site-->
 		<div class="container hidecontent">
-			<p>Qui ne s'est pas déjà cassé la tête à rechercher et comparer sur le net si sa configuration de pc correspondait ou non aux derniers jeux sortis ? </p>
-			<p>Nous avons concus ce site pour pouvoir comparer votre configuration personnel avec la configuration requise des différents jeux auxquels vous aimeriez jouer.</p>
+			<p>Qui ne s'est pas déjà cassé la tête à rechercher et comparer sur le net si sa configuration de PC correspondait ou non aux derniers jeux sorties ? </p>
+			<p>Nous avons conçus se site pour pouvoir comparer votre configuration personnel avec la configuration requise les différents jeux auxquels vous aimeriez jouer.</p>
 		<!--Bouton de test (c'est le même que le test dans le menu-->
-			<button class="test btn btn-success">commencer un test</button>
+			<button class="test btn btn-success">Commencer un test</button>
 		</div>
-		<div class="container">
-			<p>Avant </p>
-		</div>	
-
 		
 	</content>
 	<footer>
