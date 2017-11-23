@@ -64,11 +64,11 @@
 			<input type="image" name="" id="close_login" src="image/croix2min.png">
 			<p>Login/Register</p>
 			<div class="container" id="hidelogin">
-	    		<form method = "post" action = "">
+	    		<form action="php/connexion.php" method="post">
 	   				
-	    			<input type = "text" id = "login" placeholder = "Email/Username" name = "uid">
-	    			<input type = "password" id = "password" name = "upass" placeholder = "******">
-	    			<button type="submit" class="btn btn-success" id="dologin">Login</button>
+	    			<input type="text" id="login" placeholder="Username" name="pseudo">
+	    			<input type="password" id="password" name="mot_de_passe" placeholder="******">
+	    			<input type="submit" name="connexion" class="btn btn-success" id="dologin" value="Connexion">
 	    			<button id="show_register" class="btn btn-success">register</button>
 	    		</form>
     		</div>
