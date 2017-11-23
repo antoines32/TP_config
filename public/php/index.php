@@ -1,11 +1,12 @@
+<?php
 $id = $_POST['uid'];
 $pass = $_POST['upass'];
 
-$host = 'localhost';
+$host = 'db711052003.db.1and1.com';
 $user = 'root';
-$pass = ' ';
+$pass = 'TP_config27';
 mysql_connect($host, $user, $pass);
-mysql_select_db('demo');
+mysql_select_db('db711052003');
 
 $dologin = "select id,pass from user where id = $id and pass = $pass ";
 $result = mysql_query( $dologin );
@@ -18,3 +19,4 @@ else
 {
  echo "Wrong Id Or Password";
 }
+?>

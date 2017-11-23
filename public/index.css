@@ -70,3 +70,13 @@ body {
 	visibility:hidden;
 	display:none;
 }
+
+
+#loginform input {
+	margin-top:5px;
+	width:100%;
+	height:40px;
+	border:2px solid silver;
+	border-radius:3px;
+	padding:5px;
+}
