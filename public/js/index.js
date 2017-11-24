@@ -19,6 +19,11 @@ $(document).ready(function()
  		closeregister();
  		return false;
  	})
+ 	$(".test").click(function()
+ 	{
+ 		showtest();
+ 		return false;
+ 	})
 
 });
 
@@ -50,4 +55,40 @@ function closeregister ()
 	$("#hidelogin").css({"visibility":"visible","display":"block"});
 	
 	$("#hideregister").css({"visibility":"hidden","display":"none"});
+}
+
+function showtest ()
+{
+	var cpuuser = "I7";
+	var gpuuser = "";
+	var ramuser = 8;
+	var isconnect = 1;
+	if (isconnect == 1) {
+		$(".test").fadeOut();
+		$(".test").css({"visibility":"hidden","display":"none"});
+		$(".hidetest").fadeIn();
+		$(".hidetest").css({"visibility":"visible","display":"block"});
+		if (cpuuser != ""){
+			$("#cpuuser").after('<input type="text" disabled="disabled" value="'+cpuuser+'">');
+
+		}
+		else{
+			$("#cpuuser").after('<input type="text" disabled="disabled" value="cpu non renseigné">');
+		}
+		if (gpuuser != ""){
+			$("#gpuuser").after('<input type="text" disabled="disabled" value="'+gpuuser+'">');
+		}
+		else{
+			$("#gpuuser").after('<input type="text" disabled="disabled" value="gpu non renseigné">');
+		}
+		if (ramuser != ""){
+			$("#ramuser").after('<input type="text" disabled="disabled" value="'+ramuser+'">');
+		}
+		else{
+			$("#ramuser").after('<input type="text" disabled="disabled" value="ram non renseigné">');
+		}
+	}
+	else{
+		showpopup();
+	}
 }
