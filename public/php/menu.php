@@ -3,7 +3,7 @@
 
 		<!--Logo-->
 			<div class="navbar-header col-lg-2 col-sm-3">
-				<a class="navbar-brand" href="index.html">Can I Play It</a>
+				<a class="navbar-brand" href="index.php">Can I Play It</a>
 			</div>
 
 		<!--Barre de recherche-->
@@ -24,13 +24,13 @@
 			<div class="collapse navbar-collapse col-lg-4" id="collapsibleNavbar">
 			    <ul class="navbar-nav">
 			    	<li class="nav-item active">
-			        	<a class="nav-link" href="index.html">Accueil</a>
+			        	<a class="nav-link" href="index.php">Accueil</a>
 			    	</li>
 			    	<li class="nav-item">
-			        	<a class="nav-link" href="test.html">Test</a>
+			        	<a class="nav-link" href="test.php">Test</a>
 			    	</li>
 			    	<li class="nav-item">
-			        	<a class="nav-link" href="jeux.html">Jeux</a>
+			        	<a class="nav-link" href="jeux.php">Jeux</a>
 			    	</li>
 			    </ul>
 			    <ul class="navbar-nav">
