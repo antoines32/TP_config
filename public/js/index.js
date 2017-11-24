@@ -15,6 +15,10 @@ $(document).ready(function()
  		showregister();
  		return false;
  	});
+ 	$("#show_log").click(function(){
+ 		closeregister();
+ 		return false;
+ 	})
 
 });
 
