@@ -65,6 +65,22 @@
 		<!--Bouton de test (c'est le même que le test dans le menu-->
 			<button class="test btn btn-success">Commencer un test</button>
 		</div>
+		<div class="container hidetest">
+			<form id='pcuser'>
+				<label id="cpuuser">CPU : </label>
+				<label id="gpuuser">GPU : </label>
+				<label id="ramuser">RAM : </label>
+			</form>
+			<form id="jeuxuser">
+				<label>Jeux à tester : </label>
+				
+				<select name="choixdecouleur">
+				        <option value="R">rouge</option>
+				        <option value="B">bleu</option>
+				        <option value="V">vert<option>
+				      </select>
+		</div>
+
 		
 	</content>
 	<footer>
