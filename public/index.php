@@ -41,6 +41,17 @@
     				<input type="password" name="mdp" placeholder="Mot de passe" class="reg">
     				<input type="password" name="mdp_confirm" placeholder="Confirmer le mot de passe" class="reg">
     				<input type="text" name="pseudo" id="user" placeholder="Pseudo" class="reg">
+    					<?php
+    					 mysql_connect("db711052003.db.1and1.com", "dbo711052003", "TP_config27");
+    					 mysql_select_db("db711052003");
+    					 $Requete = mysql_query("SELECT * FROM cpu;");
+    					 echo "<select name='cpu' class='reg'>";
+    					 while ($donnees = mysql_fetch_array($Requete) ) {
+    					 	echo "<option value='".$donnees['id'].">".$donnees['nom']."</option>";
+    					 }
+    					 echo "</select>";
+    					 mysql_close();
+    					?>
     				<input type="submit" name="register" class="btn btn-success log" value="Valider" id="doregister">
     				<input type="button" class="btn btn-success log" value="Déja enregistré?" id="show_log">
     			</form>
