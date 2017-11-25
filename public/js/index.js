@@ -15,6 +15,7 @@ $(document).ready(function()
  		showregister();
  		return false;
  	});
+<<<<<<< HEAD
  	$("#show_log").click(function(){
  		closeregister();
  		return false;
@@ -22,6 +23,11 @@ $(document).ready(function()
  	$(".test").click(function()
  	{
  		showtest();
+=======
+ 	$("show_log").click(function()
+ 	{
+ 		closeregister();
+>>>>>>> antoineHome
  		return false;
  	})
 
@@ -51,10 +57,9 @@ function showregister()
 
 function closeregister ()
 {
-
-	$("#hidelogin").css({"visibility":"visible","display":"block"});
-	
+	$("#hideregister").fadeOut();
 	$("#hideregister").css({"visibility":"hidden","display":"none"});
+<<<<<<< HEAD
 }
 
 function showtest ()
@@ -91,4 +96,8 @@ function showtest ()
 	else{
 		showpopup();
 	}
+=======
+	$("#hidelogin").fadeIn();
+	$("#hidelogin").css({"visibility":"visible","display":"block"});
+>>>>>>> antoineHome
 }
