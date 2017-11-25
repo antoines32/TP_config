@@ -80,3 +80,7 @@ body {
 	border-radius:3px;
 	padding:5px;
 }
+
+.hidetest {
+	visibility: hidden;
+}
