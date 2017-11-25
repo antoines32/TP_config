@@ -15,6 +15,11 @@ $(document).ready(function()
  		showregister();
  		return false;
  	});
+ 	$("show_log").click(function()
+ 	{
+ 		closeregister();
+ 		return false;
+ 	})
 
 });
 
@@ -42,8 +47,8 @@ function showregister()
 
 function closeregister ()
 {
-
-	$("#hidelogin").css({"visibility":"visible","display":"block"});
-	
+	$("#hideregister").fadeOut();
 	$("#hideregister").css({"visibility":"hidden","display":"none"});
+	$("#hidelogin").fadeIn();
+	$("#hidelogin").css({"visibility":"visible","display":"block"});
 }
