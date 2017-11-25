@@ -26,8 +26,8 @@
 			<div class="container" id="hidelogin">
 	    		<form method="post" action="php/connexion.php">
 	   				
-	    			<input type ="text" id ="login" placeholder="Email/Username" name="pseudo">
-	    			<input type ="password" id ="password" name="mot_de_passe" placeholder="******">
+	    			<input type ="text" id ="login" placeholder="Email/Username" name="pseudo" required>
+	    			<input type ="password" id ="password" name="mot_de_passe" placeholder="******" required>
 	    			<input type="submit" class="btn btn-success log" id="dologin" name="connexion" value="Connexion">
 	    			<input type="button" id="show_register" class="btn btn-success log" value="Inscription">
 	    		</form>
@@ -35,22 +35,22 @@
     	<!--popup register-->
     		<div class="container" id="hideregister">
     			<form method="post" action="php/register.php">
-    				<input type="text" name="nom" placeholder="Nom" class="reg">
-    				<input type="text" name="prenom" placeholder="Prénom" class="reg">
-    				<input type="email" name="mail" id="mail" placeholder="Email" class="reg">
-    				<input type="password" name="mdp" placeholder="Mot de passe" class="reg">
-    				<input type="password" name="mdp_confirm" placeholder="Confirmer le mot de passe" class="reg">
-    				<input type="text" name="pseudo" id="user" placeholder="Pseudo" class="reg">
+    				<input type="text" name="nom" placeholder="Nom" class="reg" required>
+    				<input type="text" name="prenom" placeholder="Prénom" class="reg" required>
+    				<input type="email" name="mail" id="mail" placeholder="Email" class="reg" required>
+    				<input type="password" name="mdp" placeholder="Mot de passe" class="reg" required>
+    				<input type="password" name="mdp_confirm" placeholder="Confirmer le mot de passe" class="reg" required>
+    				<input type="text" name="pseudo" id="user" placeholder="Pseudo" class="reg" required>
     					<?php
-    					 mysql_connect("db711052003.db.1and1.com", "dbo711052003", "TP_config27");
-    					 mysql_select_db("db711052003");
-    					 $Requete = mysql_query("SELECT * FROM cpu;");
-    					 echo "<select name='cpu' class='reg'>";
-    					 while ($donnees = mysql_fetch_array($Requete) ) {
-    					 	echo "<option value='".$donnees['id'].">".$donnees['nom']."</option>";
-    					 }
-    					 echo "</select>";
-    					 mysql_close();
+    					session_start();
+    					mysqli_connect("db711052003.db.1and1.com","dbo711052003","TP_config27","db711052003");
+    					$Requete = mysqli_query("SELECT * FROM cpu;");
+    					echo "<select name='cpu' class='reg'>";
+    					while ($donnees = mysqli_fetch_array($Requete) ) {
+    						echo "<option value='".$donnees['id'].">".$donnees['nom']."</option>";
+    					}
+    					echo "</select>";
+    					mysqli_close();
     					?>
     				<input type="submit" name="register" class="btn btn-success log" value="Valider" id="doregister">
     				<input type="button" class="btn btn-success log" value="Déja enregistré?" id="show_log">
