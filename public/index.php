@@ -36,6 +36,17 @@
 		<!--Bouton de test (c'est le même que le test dans le menu-->
 			<button class="test btn btn-success">Commencer un test</button>
 		</div>
+		<div class="container hidetest hidecontent">
+			<form id='pcuser'>
+				<label id="cpuuser" name="cpuuser">CPU : </label>
+				<label id="gpuuser" name="gpuuser">GPU : </label>
+				<label id="ramuser" name="ramuser">RAM : </label>
+				<label>Jeux à tester : </label>
+				<input id="search" type="text" autocomplete="on" name="searchgame" />
+				<div id="results"></div>
+				<input type="submit" name="cipi" class="btn btn-success" value="Can I Play It ?" id="cipi">
+			</form>
+		</div>
 		
 	</content>
 	

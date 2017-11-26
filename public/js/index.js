@@ -15,10 +15,6 @@ $(document).ready(function()
  		showregister();
  		return false;
  	});
-<<<<<<< HEAD
-	AfficheConnexion();
-=======
-<<<<<<< HEAD
  	$("#show_log").click(function(){
  		closeregister();
  		return false;
@@ -26,15 +22,9 @@ $(document).ready(function()
  	$(".test").click(function()
  	{
  		showtest();
-=======
- 	$("show_log").click(function()
- 	{
- 		closeregister();
->>>>>>> antoineHome
  		return false;
  	})
-
->>>>>>> bff179e0dcf8aa8ee6895cf387f2a5e912365ac1
+ 		AfficheConnexion();
 });
 
 //-------------------------------------------------------------
@@ -52,6 +42,8 @@ function AfficheConnexion()
 	}
 }
 //-------------------------------------------------------------
+
+
 
 function showpopup()
 {
@@ -77,11 +69,10 @@ function showregister()
 
 function closeregister ()
 {
-	$("#hideregister").fadeOut();
+
+	$("#hidelogin").css({"visibility":"visible","display":"block"});
+	
 	$("#hideregister").css({"visibility":"hidden","display":"none"});
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 }
 
 function showtest ()
@@ -109,7 +100,7 @@ function showtest ()
 			$("#gpuuser").after('<input type="text" disabled="disabled" value="gpu non renseigné">');
 		}
 		if (ramuser != ""){
-			$("#ramuser").after('<input type="text" disabled="disabled" value="'+ramuser+'">');
+			$("#ramuser").after('<input type="text" disabled="disabled" value="'+ramuser+'Go">');
 		}
 		else{
 			$("#ramuser").after('<input type="text" disabled="disabled" value="ram non renseigné">');
@@ -118,9 +109,4 @@ function showtest ()
 	else{
 		showpopup();
 	}
-=======
-	$("#hidelogin").fadeIn();
-	$("#hidelogin").css({"visibility":"visible","display":"block"});
->>>>>>> antoineHome
->>>>>>> bff179e0dcf8aa8ee6895cf387f2a5e912365ac1
 }
