@@ -87,12 +87,18 @@ if(isset($_POST['register']))
 								} else 
 								{
 									//------------------------------------------
-									// le null dans la requete ne peut être utiliser que si tu a explicitemant indiquer que le champ était nullable ex: ...null,null);");
-									// si ne saisie pas la clé primaire vérifie qu'elle est bien en auto incrément sinon sa ne marchera pas 
+									// Tout est bon on enregistre le nouvel utilisateur
 									//------------------------------------------
 									$Inscription = mysqli_query($mysqli,"INSERT INTO `users` (`nom`, `prenom`, `email`, `mdp`, `pseudo`, `id_cpu`, `id_gpu`, `ram`) VALUES ('".$Nom."','".$Prenom."','".$Mail."','".$Mdp."','".$Pseudo."','".$CPU."','".$GPU."','".$RAM."');");
 									$Connexion = "Vous vous êtes bien inscrit";
 									$_SESSION['pseudo'] = $Pseudo;
+									// On récupére l'ID du nouvel utilisateur pour le connecter automatiquement
+									$sql= mysqli_query($mysqli,"SELECT * from users WHERE pseudo = '".$Pseudo."'");
+									$donnees = mysqli_fetch_assoc($sql);
+									$_SESSION['id'] = $donnees ['id'];
+									$_SESSION['id_cpu'] = $donnees ['id_cpu'];
+									$_SESSION['id_gpu'] = $donnees ['id_gpu'];
+									$_SESSION['ram'] = $donnees ['ram'];
 								}
 							}
 						}

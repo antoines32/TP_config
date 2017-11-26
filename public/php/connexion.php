@@ -23,7 +23,7 @@ if(isset($_POST['connexion']))
     // empty vérifie à la fois si le champ est vide et si le champ existe belle et bien (is set)
     if(empty($_POST['pseudo']))
 	{
-        echo "Le champ Pseudo est vide.";
+        $Connexion = "Le champ Pseudo est vide.";
     } else
 	{
         // on vérifie maintenant si le champ "Mot de passe" n'est pas vide"
@@ -71,6 +71,13 @@ if(isset($_POST['connexion']))
 				{
                     // on ouvre la session avec $_SESSION:
                     $_SESSION['pseudo'] = $Pseudo; // la session peut être appelée différemment et son contenu aussi peut être autre chose que le pseudo
+                    // On récupére l'ID du nouvel utilisateur pour le connecter automatiquement
+                    $sql= mysqli_query($mysqli,"SELECT * from users WHERE pseudo = '".$Pseudo."'");
+                    $donnees = mysqli_fetch_assoc($sql);
+                    $_SESSION['id'] = $donnees ['id'];
+                    $_SESSION['id_cpu'] = $donnees ['id_cpu'];
+                    $_SESSION['id_gpu'] = $donnees ['id_gpu'];
+                    $_SESSION['ram'] = $donnees ['ram'];
                     $Connexion = "Vous êtes à présent connecté !";
                 }
             }
