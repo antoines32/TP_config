@@ -41,7 +41,7 @@
 					}
 					else 
 					{
-						echo "<button class='test btn btn-success show_login' disabled>Commencer un test</button>";
+						echo "<button class='test btn btn-success show_login'>Commencer un test</button>";
 						echo "<p>Merci de vous connecter ou de vous inscrire sur le site afin d'utiliser cette fonctionnalité</p>";
 					}
 			?>
