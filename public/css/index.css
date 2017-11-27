@@ -93,6 +93,8 @@ body {
 }
 
 .hidecontent {
+	margin-bottom: 10px;
+	padding: 5px;
 	background-color: silver;
 	border: 1px solid green;
 	border-radius: 5px;
