@@ -47,35 +47,48 @@
 					}
 			?>
 		</div>
+		<?php if(isset($_SESSION['processeur_ok_min']))
+		{
+		echo "<div class='container hidecontent'>";
+		} ?>	
+			<?php
+				if(isset($_SESSION['processeur_ok_min']))
+				{
+					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_min']."' disabled='disabled'>";
+					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_min']."' disabled='disabled'>";
+					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_min']."'disabled='disabled'>";
+					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_recom']."'disabled='disabled'>";
+					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_recom']."'disabled='disabled'>";
+					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_recom']."'disabled='disabled'>";
+				}
+			?>
+		</div>
 		<div class="container hidetest hidecontent">
 			<form id='pcuser' method="post" action="php/comparaison.php">
-				<label id="cpuuser" name="cpuuser_label">CPU : 
-				<input type="text" name="cpuuser" value='<?php
+				<label id="cpuuser" name="cpuuser_label">CPU : </label>
+				<input type="text" name="cpuuser" class="resulttest form-control" value='<?php
 				session_start();
 				$conn = mysqli_connect("db711052003.db.1and1.com", "dbo711052003", "TP_config27", "db711052003");
 				$sql= mysqli_query($conn,"SELECT * FROM `cpu` where id = '".$_SESSION['id_cpu']."'");
 				$donnees = mysqli_fetch_assoc($sql);
 				echo $donnees['marque']." ".$donnees['famille']." ".$donnees['modele'];
 				?>' disabled>
-				</label>
-				<label id="gpuuser" name="gpuuser_label">GPU : 
-					<input type="text" name="gpuuser" value='<?php
+				<label id="gpuuser" name="gpuuser_label">GPU : </label>
+					<input type="text" name="gpuuser" class="resulttest form-control" value='<?php
 					session_start();
 					$conn = mysqli_connect("db711052003.db.1and1.com", "dbo711052003", "TP_config27", "db711052003");
 					$sql= mysqli_query($conn,"SELECT * FROM `gpu` where id = '".$_SESSION['id_gpu']."'");
 					$donnees = mysqli_fetch_assoc($sql);
 					echo $donnees['nom'];
 					?>' disabled>
-				</label>
-				<label id="ramuser" name="ramuser_label">RAM : 
-					<input type="text" name="ramuser" value='<?php
+				<label id="ramuser" name="ramuser_label">RAM : </label>
+					<input type="text" name="ramuser" class="resulttest form-control" value='<?php
 					session_start();
 					echo $_SESSION['ram']." Go";
 					?>' disabled>
-				</label>
 				<br>
 				<label>Jeu à tester : </label>
-				<select name="jeu">
+				<select class="form-control resulttest" name="jeu">
 					<option value="null">------Jeu------</option>
 					<?php
  
@@ -92,19 +105,6 @@
 				<div id="results"></div>
 				<input type="submit" name="cipi" class="btn btn-success" value="Can I Play It ?" id="cipi">
 			</form>
-			<?php
-				if(isset($_SESSION['processeur_ok_min']))
-				{
-					echo "<input type='text' value='".$_SESSION['processeur_ok_min']."' disabled='disabled'>";
-					echo "<input type='text' value='".$_SESSION['carte_graphique_ok_min']."' disabled='disabled'>";
-					echo "<input type='text' value='".$_SESSION['ram_ok_min']."'disabled='disabled'>";
-					echo "<input type='text' value='".$_SESSION['processeur_ok_recom']."'disabled='disabled'>";
-					echo "<input type='text' value='".$_SESSION['carte_graphique_ok_recom']."'disabled='disabled'>";
-					echo "<input type='text' value='".$_SESSION['ram_ok_recom']."'disabled='disabled'>";
-				}
-			?>
-			
-		</div>
 		<nav class="navbar fixed-bottom navbar-dark">
 		<a class="navbar-brand" href="#">
 			<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.caniplayit.fr/index.php" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false">
