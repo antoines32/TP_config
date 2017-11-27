@@ -42,7 +42,7 @@
 					}
 					else 
 					{
-						echo "<button class='test btn btn-success show_login'>Commencer un test</button>";
+						echo "<button class='test btn btn-success show_login' disabled>Commencer un test</button>";
 						echo "<p>Merci de vous connecter ou de vous inscrire sur le site afin d'utiliser cette fonctionnalité</p>";
 					}
 			?>
@@ -57,10 +57,7 @@
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_min']."' disabled='disabled'>";
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_min']."' disabled='disabled'>";
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_min']."'disabled='disabled'>";
-					if(isset($_SESSION['recom']) == false)
-					{
-
-					} else 
+					if(isset($_SESSION['recom']) == true)
 					{
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_recom']."'disabled='disabled'>";
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_recom']."'disabled='disabled'>";
@@ -69,7 +66,7 @@
 				}
 			?>
 		</div>
-		<div class="container hidetest hidecontent">
+		<div class="container hidetest hidecontent" id="form-compare">
 			<form id='pcuser' method="post" action="php/comparaison.php">
 				<label id="cpuuser" name="cpuuser_label">CPU : </label>
 				<input type="text" name="cpuuser" class="resulttest form-control" value='<?php

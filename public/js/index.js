@@ -62,6 +62,7 @@ function hidepopup()
 	$("#loginform").fadeOut();
 	$("#loginform").css({"visibility":"hidden","display":"none"});
 	$(".hidecontent").css({"visibility":"visible","display":"block"});
+	$("#form-compare").css({"visibility":"hidden","display":"none"});
 }
 
 function showregister()
@@ -87,6 +88,7 @@ function showtest ()
 		$("#div-result").css({"visibility":"hidden","display":"none"})
 		$(".hidetest").fadeIn();
 		$(".hidetest").css({"visibility":"visible","display":"block"});
+		$("#form-compare").css({"visibility":"visible","display":"block"});
 }
 
 /*function compare ()

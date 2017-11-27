@@ -6,12 +6,12 @@
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 
 <!--Logo-->
-	<div class="navbar-header col-lg-2 col-sm-3">
+	<div class="navbar-header col-lg-2 col-sm-2">
 		<a class="navbar-brand" href="index.php">Can I Play It</a>
 	</div>
 
 <!--Barre de recherche-->
-	<div class="form-group col-lg-6 col-md-5 col-sm-6 col-8">
+	<div class="form-group col-lg-6 col-md-4 col-sm-6 col-8">
 		<div class="input-group input-group-md icon-addon">
 			<input placeholder="Texte" name="" id="schbox" class="form-control" type="text">
 			<i class="icon icon-search"></i>
@@ -90,11 +90,10 @@
 				<?php
 					if(isset($_SESSION['id']))
 					{
-						echo "Bienvenue '".$_SESSION['pseudo']."'";
-						echo "<a class='nav-link' id='deco' value='deconnexion' href='php/deconnexion.php'>Déconnexion</a>";
+						echo "<a class='nav-link' id='deco' href='php/deconnexion.php'>".$_SESSION['pseudo']."/Déconnexion</a>";
 					} else
 					{
-						echo "<a class='nav-link' id='show_login' value='Show Login' href=''>Login/register</a>";
+						echo "<a class='nav-link' id='show_login' value='Show Login' href=''>Login/Register</a>";
 					}
 				?>
 			</li>

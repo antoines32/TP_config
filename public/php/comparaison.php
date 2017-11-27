@@ -68,6 +68,7 @@ if(isset($_POST['cipi']))
 		}
 		if($donnees['recom'] = "True")
 		{
+			$_SESSION['recom'] = True;
 			$game_recom_cpu_clock = $donnees ['recom_cpu_clock'];
 			$game_recom_cpu_core = $donnees ['recom_cpu_core'];
 			$game_recom_ram = $donnees ['recom_ram'];
