@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="https://andwecode.com/wp-content/uploads/2015/10/jquery.leanModal.min_.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	
@@ -29,7 +30,7 @@
 			include './moduls/modals.php';
 		?>
 
- 		<!--Description du site-->
+		<!--Description du site-->
 		<div class="container hidecontent">
 			<p>Qui ne s'est pas déjà cassé la tête à rechercher et comparer sur le net si sa configuration de PC correspondait ou non aux derniers jeux sorties ? </p>
 			<p>Nous avons conçus se site pour pouvoir comparer votre configuration personnel avec la configuration requise les différents jeux auxquels vous aimeriez jouer.</p>
@@ -74,12 +75,12 @@
 				</label>
 				<br>
 				<label>Jeu à tester : </label>
-    			<select name="jeu">
-    				<option value="null">------Jeu------</option>
-    				<?php
+				<select name="jeu">
+					<option value="null">------Jeu------</option>
+					<?php
  
 					$conn = mysqli_connect("db711052003.db.1and1.com", "dbo711052003", "TP_config27", "db711052003");
-					$sql= mysqli_query($conn,"SELECT * FROM `games`");
+					$sql= mysqli_query($conn,"SELECT * FROM `games` ORDER BY `games`.`nom` ASC ");
  
 					while($donnees=mysqli_fetch_assoc($sql)) {
 					?>
@@ -87,15 +88,22 @@
 					<?php
 					}
 					?>
-    			</select>
+				</select>
 				<div id="results"></div>
 				<input type="submit" name="cipi" class="btn btn-success" value="Can I Play It ?" id="cipi">
 			</form>
 			
 		</div>
-		
+		<nav class="navbar fixed-bottom navbar-dark">
+		<a class="navbar-brand" href="#">
+			<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.caniplayit.fr/index.php" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false">
+				<span class="fa fa-facebook">
+					<img src="https://icon-icons.com/icons2/555/PNG/512/facebook_icon-icons.com_53612.png" width="30" height="30" class="d-inline-block align-top" alt="">
+				</span>
+			</a>
+		</a>
+	</nav>
 	</content>
-	
 	<?php 
 			include './moduls/footer.php';
 	?>
