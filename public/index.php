@@ -49,7 +49,7 @@
 		</div>
 		<?php if(isset($_SESSION['processeur_ok_min']))
 		{
-		echo "<div class='container hidecontent'>";
+		echo "<div class='container hidecontent' id='div-result'>";
 		} ?>	
 			<?php
 				if(isset($_SESSION['processeur_ok_min']))
@@ -57,9 +57,15 @@
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_min']."' disabled='disabled'>";
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_min']."' disabled='disabled'>";
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_min']."'disabled='disabled'>";
+					if(isset($_SESSION['recom']) == false)
+					{
+
+					} else 
+					{
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_recom']."'disabled='disabled'>";
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_recom']."'disabled='disabled'>";
 					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_recom']."'disabled='disabled'>";
+					}
 				}
 			?>
 		</div>

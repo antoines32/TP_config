@@ -97,6 +97,9 @@ if(isset($_POST['cipi']))
 			{
 				$_SESSION['ram_ok_recom'] = "Vous ne disposez pas de suffisament de ram pour faire tourner le jeu en parametre recommandé.";
 			}
+		} else 
+		{
+			$_SESSION['recom'] = False;
 		}
 	}
 }
