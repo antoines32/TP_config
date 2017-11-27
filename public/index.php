@@ -91,6 +91,7 @@
 				<div id="results"></div>
 				<input type="submit" name="cipi" class="btn btn-success" value="Can I Play It ?" id="cipi">
 			</form>
+			
 		</div>
 		
 	</content>
