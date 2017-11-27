@@ -2,6 +2,7 @@
 
 body {
 	background-color: silver;
+	background: url("../image/assassin.jpg") fixed;
 }
 
 .inline-form input {
@@ -83,4 +84,9 @@ body {
 
 .hidetest {
 	visibility: hidden;
+}
+
+.resulttest {
+	width: 90%;
+	display: block;
 }
