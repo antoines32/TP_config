@@ -95,7 +95,12 @@
 			<?php
 				if(isset($_SESSION['processeur_ok_min']))
 				{
-					echo "<input type='text' value='".$_SESSION['processeur_ok_min']."'>";
+					echo "<input type='text' value='".$_SESSION['processeur_ok_min']."' disabled='disabled'>";
+					echo "<input type='text' value='".$_SESSION['carte_graphique_ok_min']."' disabled='disabled'>";
+					echo "<input type='text' value='".$_SESSION['ram_ok_min']."'disabled='disabled'>";
+					echo "<input type='text' value='".$_SESSION['processeur_ok_recom']."'disabled='disabled'>";
+					echo "<input type='text' value='".$_SESSION['carte_graphique_ok_recom']."'disabled='disabled'>";
+					echo "<input type='text' value='".$_SESSION['ram_ok_recom']."'disabled='disabled'>";
 				}
 			?>
 			
