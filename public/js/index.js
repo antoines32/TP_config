@@ -24,11 +24,11 @@ $(document).ready(function()
  		showtest();
  		return false;
  	});
- 	$("#cipi").click(function()
+ 	/*$("#cipi").click(function()
  	{
  		compare();
  		return false;
- 	})
+ 	})*/
  		AfficheConnexion();
 });
 
@@ -94,7 +94,7 @@ function showtest ()
 	}
 }
 
-function compare ()
+/*function compare ()
 {
 	$.get(
     '../php/comparaison.php', // Le fichier cible côté serveur.
@@ -109,4 +109,4 @@ function affiche_resultat(texte_recu){
 	var tab_result = texte_recu.split(".");
 	$("#pcuser").after('<div><form><input type="text" disabled="disabled" name="resultatcpu" value="'+tab_result[0]+'"><input type="text" disabled="disabled" name="resultatgpu" value="'+tab_result[1]+'"><input type="text" disabled="disabled" name="resultatram" value="'+tab_result[2]+'"></form></div>');
 
-};
+};*/

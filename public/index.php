@@ -70,7 +70,7 @@
 				<label id="ramuser" name="ramuser_label">RAM : 
 					<input type="text" name="ramuser" value='<?php
 					session_start();
-					echo $_SESSION['ram'];
+					echo $_SESSION['ram']." Go";
 					?>' disabled>
 				</label>
 				<br>
@@ -92,6 +92,12 @@
 				<div id="results"></div>
 				<input type="submit" name="cipi" class="btn btn-success" value="Can I Play It ?" id="cipi">
 			</form>
+			<?php
+				if(isset($_SESSION['processeur_ok_min']))
+				{
+					echo "<input type='text' value='".$_SESSION['processeur_ok_min']."'>";
+				}
+			?>
 			
 		</div>
 		<nav class="navbar fixed-bottom navbar-dark">
