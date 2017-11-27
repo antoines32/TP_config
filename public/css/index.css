@@ -86,13 +86,15 @@ body {
 	visibility: hidden;
 }
 
-.resulttest {
+.resulttest{
 	width: 90%;
 	display: block;
+	margin: 5px 0px 5px 0px;
 }
 
 .hidecontent {
+	background-color: silver;
 	border: 1px solid green;
-	border-radius: 3px;
+	border-radius: 5px;
 	opacity: 0.8;
 }
