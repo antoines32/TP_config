@@ -82,16 +82,11 @@ function closeregister ()
 
 function showtest ()
 {
-	var isconnect = 1;
-	if (isconnect == 1) {
 		$(".test").fadeOut();
 		$(".test").css({"visibility":"hidden","display":"none"});
+		$("#div-result").css({"visibility":"hidden","display":"none"})
 		$(".hidetest").fadeIn();
 		$(".hidetest").css({"visibility":"visible","display":"block"});
-	}
-	else{
-		showpopup();
-	}
 }
 
 /*function compare ()
