@@ -47,17 +47,17 @@ if(isset($_POST['register']))
 							$Connexion = "Le pseudo est vide.";
 						} else
 						{
-							if ($_POST['cpu'] == null)
+							if ($_POST['cpu'] == "null")
 							{
 								$Connexion = "Le CPU ne peut pas être la valeur par defaut.";
 							} else
 							{
-								if ($_POST['gpu'] == null)
+								if ($_POST['gpu'] == "null")
 								{
 									$Connexion = "Le GPU ne peut pas être la valeur par defaut.";
 								} else
 								{
-									if ($_POST['ram'] == null)
+									if ($_POST['ram'] == "null")
 									{
 										$Connexion = "La RAM ne peut pas être la valeur par defaut.";
 									}
