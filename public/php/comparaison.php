@@ -35,7 +35,7 @@ if(isset($_POST['cipi']))
 		$_SESSION['user_ratio_cpu'] = $_SESSION['user_cpu_thread'] * $_SESSION['user_cpu_clock'];
 		
 		//Récuperation de la config minimal et recommandé du jeu
-		$sql = mysqli_query($mysqli,"SELECT ram from games where id = '".$_POST['jeu']."'");
+		$sql = mysqli_query($mysqli,"SELECT * from games where id = '".$_POST['jeu']."'");
 		$donnees = mysqli_fetch_assoc($sql);
 		$game_min_cpu_clock = $donnees ['min_cpu_clock'];
 		$game_min_cpu_core = $donnees ['min_cpu_core'];
@@ -47,29 +47,23 @@ if(isset($_POST['cipi']))
 		$game_min_ratio_cpu = $game_min_cpu_core * $game_min_cpu_clock;
 		if($_SESSION['user_ratio_cpu'] >= $game_min_ratio_cpu)
 		{
-			$Jeu_min = "Votre processeur fera tourner le jeu en parametre minimal.";
 			$_SESSION['processeur_ok_min'] = "Votre processeur fera tourner le jeu en parametre minimal.";
 		} else
 		{
-			$Jeu_min = "Votre processeur ne fera pas tourner le jeu en parametre minimal.";
 			$_SESSION['processeur_ok_min'] = "Votre processeur ne fera pas tourner le jeu en parametre minimal.";
 		}
 		if($_SESSION['user_gpu_clock'] >= $game_min_gpu_clock and $_SESSION['user_gpu_memory'] >= $game_min_gpu_ram and $_SESSION['user_gpu_memory_clock'] >= $game_min_gpu_ram_clock)
 		{
-			$Jeu_min = $Jeu_min ." Votre carte graphique fera tourner le jeu en parametre minimal.";
 			$_SESSION['carte_graphique_ok_min'] = "Votre carte graphique fera tourner le jeu en parametre minimal.";
 		} else
 		{
-			$Jeu_min = $Jeu_min ." Votre carte graphique ne fera pas tourner le jeu en parametre minimal.";
 			$_SESSION['carte_graphique_ok_min'] = "Votre carte graphique ne fera pas tourner le jeu en parametre minimal.";
 		}
 		if($_SESSION['user_ram'] >= $game_min_ram)
 		{
-			$Jeu_min = $Jeu_min ." Vous disposez de suffisament de ram pour faire tourner le jeu en parametre minimal.";
 			$_SESSION['ram_ok_min'] = "Vous disposez de suffisament de ram pour faire tourner le jeu en parametre minimal.";
 		} else
 		{
-			$Jeu_min = $Jeu_min ." Vous ne disposez pas de suffisament de ram pour faire tourner le jeu en parametre minimal.";
 			$_SESSION['ram_ok_min'] = "Vous ne disposez pas de suffisament de ram pour faire tourner le jeu en parametre minimal.";
 		}
 		if($donnees['recom'] = "True")
@@ -81,32 +75,27 @@ if(isset($_POST['cipi']))
 			$game_recom_gpu_clock = $donnees ['recom_gpu_clock'];
 			$game_recom_gpu_ram_clock = $donnees ['recom_gpu_ram_clock'];
 			$game_recom_space = $donnees ['recom_space'];
+			$game_recom_ratio_cpu = $donnees ['recom_cpu_clock'] * $donnees ['recom_cpu_core'];
 			if($_SESSION['user_ratio_cpu'] >= $game_recom_ratio_cpu)
 			{
-				$Jeu_recom = "Votre processeur fera tourner le jeu en parametre minimal.";
-				$_SESSION['processeur_ok_recom'] = "Votre processeur fera tourner le jeu en parametre minimal.";
+				$_SESSION['processeur_ok_recom'] = "Votre processeur fera tourner le jeu en parametre recommandé.";
 			} else
 			{
-				$Jeu_recom = "Votre processeur ne fera pas tourner le jeu en parametre minimal.";
-				$_SESSION['processeur_ok_recom'] = "Votre processeur ne fera pas tourner le jeu en parametre minimal.";
+				$_SESSION['processeur_ok_recom'] = "Votre processeur ne fera pas tourner le jeu en parametre recommandé.";
 			}
 			if($_SESSION['user_gpu_clock'] >= $game_recom_gpu_clock and $_SESSION['user_gpu_memory'] >= $game_recom_gpu_ram and $_SESSION['user_gpu_memory_clock'] >= $game_recom_gpu_ram_clock)
 			{
-				$Jeu_recom = $Jeu_recom ." Votre carte graphique fera tourner le jeu en parametre minimal.";
-				$_SESSION['carte_graphique_ok_recom'] = "Votre carte graphique fera tourner le jeu en parametre minimal.";
+				$_SESSION['carte_graphique_ok_recom'] = "Votre carte graphique fera tourner le jeu en parametre recommandé.";
 			} else
 			{
-				$Jeu_recom = $Jeu_recom ." Votre carte graphique ne fera pas tourner le jeu en parametre minimal.";
-				$_SESSION['carte_graphique_ok_recom'] = "Votre carte graphique ne fera pas tourner le jeu en parametre minimal.";
+				$_SESSION['carte_graphique_ok_recom'] = "Votre carte graphique ne fera pas tourner le jeu en parametre recommandé.";
 			}
 			if($_SESSION['user_ram'] >= $game_recom_ram)
 			{
-				$Jeu_recom = $Jeu_recom ." Vous disposez de suffisament de ram pour faire tourner le jeu en parametre minimal.";
-				$_SESSION['ram_ok_recom'] = "Vous disposez de suffisament de ram pour faire tourner le jeu en parametre minimal.";
+				$_SESSION['ram_ok_recom'] = "Vous disposez de suffisament de ram pour faire tourner le jeu en parametre recommandé.";
 			} else
 			{
-				$Jeu_recom = $Jeu_recom ." Vous ne disposez pas de suffisament de ram pour faire tourner le jeu en parametre minimal.";
-				$_SESSION['ram_ok_recom'] = "Vous ne disposez pas de suffisament de ram pour faire tourner le jeu en parametre minimal.";
+				$_SESSION['ram_ok_recom'] = "Vous ne disposez pas de suffisament de ram pour faire tourner le jeu en parametre recommandé.";
 			}
 		}
 	}
