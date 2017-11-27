@@ -54,14 +54,14 @@
 			<?php
 				if(isset($_SESSION['processeur_ok_min']))
 				{
-					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_min']."' disabled='disabled'>";
-					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_min']."' disabled='disabled'>";
-					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_min']."'disabled='disabled'>";
+					echo "<label>CPU en paramètre minimaux :</label><input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_min']."' disabled='disabled'>";
+					echo "<label>GPU en paramètre minimaux :</label><input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_min']."' disabled='disabled'>";
+					echo "<label>RAM en paramètre minimaux :</label><input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_min']."'disabled='disabled'>";
 					if(isset($_SESSION['recom']) == true)
 					{
-					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_recom']."'disabled='disabled'>";
-					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_recom']."'disabled='disabled'>";
-					echo "<input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_recom']."'disabled='disabled'>";
+					echo "<label>CPU en paramètre recommandé :</label><input type='text' class='resulttest form-control' value='".$_SESSION['processeur_ok_recom']."'disabled='disabled'>";
+					echo "<label>GPU en paramètre recommandé :</label><input type='text' class='resulttest form-control' value='".$_SESSION['carte_graphique_ok_recom']."'disabled='disabled'>";
+					echo "<label>RAM en paramètre recommandé :</label><input type='text' class='resulttest form-control' value='".$_SESSION['ram_ok_recom']."'disabled='disabled'>";
 					}
 				}
 			?>
@@ -108,18 +108,18 @@
 				<div id="results"></div>
 				<input type="submit" name="cipi" class="btn btn-success" value="Can I Play It ?" id="cipi">
 			</form>
-		<nav class="navbar fixed-bottom navbar-dark">
-		<a class="navbar-brand" href="#">
-			<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.caniplayit.fr/index.php" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false">
-				<span class="fa fa-facebook">
-					<img src="https://icon-icons.com/icons2/555/PNG/512/facebook_icon-icons.com_53612.png" width="30" height="30" class="d-inline-block align-top" alt="">
-				</span>
-			</a>
-		</a>
-	</nav>
 	</content>
 	<?php 
-			include './moduls/footer.php';
+			include 'moduls/footer.php';
 	?>
+	<nav class='navbar fixed-bottom navbar-light bg-light'>
+    <a class='navbar-brand' href='#'>
+        <a class='btn btn-social-icon btn-facebook' href='https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.chessglobalimpact.fr/main.php' target='_blank' onclick='window.open(this.href,"'targetWindow'","'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'"); return false'>
+			<span class='fa-facebook'>
+				<img src='https://icon-icons.com/icons2/555/PNG/512/facebook_icon-icons.com_53612.png' width='30' height='30' class='d-inline-block align-top' alt=''>
+			</span>
+		</a>
+	</a>
+</nav>
 </body>
 </html>
